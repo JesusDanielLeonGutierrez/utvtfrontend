@@ -12,6 +12,7 @@ import { VinculacionComponent } from './componentes/vinculacion/vinculacion.comp
 import { TramitesComponent } from './componentes/tramites/tramites.component';
 import { ContraloriaComponent } from './componentes/contraloria/contraloria.component';
 import { InicioComponent } from './componentes/inicio/inicio.component';
+import { SaiiutComponent } from './componentes/saiiut/saiiut.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { InicioComponent } from './componentes/inicio/inicio.component';
     VinculacionComponent,
     TramitesComponent,
     ContraloriaComponent,
-    InicioComponent
+    InicioComponent,
+    SaiiutComponent
   ],
   imports: [
     BrowserModule,

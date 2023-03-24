@@ -9,6 +9,7 @@ import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { OEducComponent } from './componentes/oeduc/oeduc.component';
 import { TramitesComponent } from './componentes/tramites/tramites.component';
 import { VinculacionComponent } from './componentes/vinculacion/vinculacion.component';
+import { SaiiutComponent } from './componentes/saiiut/saiiut.component';
 
 
 const routes: Routes = [
@@ -20,7 +21,8 @@ const routes: Routes = [
   { path: 'estudiantes', component: EstudiantesComponent },
   { path: 'Oferta-Educativa', component: OEducComponent },
   { path: 'tramites-servicios', component: TramitesComponent },
-  { path: 'vinculacion', component: VinculacionComponent }
+  { path: 'vinculacion', component: VinculacionComponent },
+  { path: 'Saiiut', component: SaiiutComponent }
 ];
 
 @NgModule({
