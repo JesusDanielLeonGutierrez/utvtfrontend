@@ -4,16 +4,16 @@ import { AcercaComponent } from './componentes/acerca/acerca.component';
 import { ContraloriaComponent } from './componentes/contraloria/contraloria.component';
 import { DocenteComponent } from './componentes/docente/docente.component';
 import { EstudiantesComponent } from './componentes/estudiantes/estudiantes.component';
-import { InicioComponent } from './componentes/inicio/inicio.component';
-import { NavbarComponent } from './componentes/navbar/navbar.component';
+import { InicioComponent } from './componentes/inicio/inicio.component'; import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { OEducComponent } from './componentes/oeduc/oeduc.component';
 import { TramitesComponent } from './componentes/tramites/tramites.component';
 import { VinculacionComponent } from './componentes/vinculacion/vinculacion.component';
 import { SaiiutComponent } from './componentes/saiiut/saiiut.component';
 
 
+
 const routes: Routes = [
-  { path: 'navbar', component: NavbarComponent },
+
   { path: 'inicio', component: InicioComponent },
   { path: 'acerca-utvt', component: AcercaComponent },
   { path: 'contraloria-social', component: ContraloriaComponent },
@@ -23,6 +23,7 @@ const routes: Routes = [
   { path: 'tramites-servicios', component: TramitesComponent },
   { path: 'vinculacion', component: VinculacionComponent },
   { path: 'Saiiut', component: SaiiutComponent }
+
 ];
 
 @NgModule({

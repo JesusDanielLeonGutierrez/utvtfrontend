@@ -13,6 +13,7 @@ import { TramitesComponent } from './componentes/tramites/tramites.component';
 import { ContraloriaComponent } from './componentes/contraloria/contraloria.component';
 import { InicioComponent } from './componentes/inicio/inicio.component';
 import { SaiiutComponent } from './componentes/saiiut/saiiut.component';
+import { FooterComponent } from './componentes/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { SaiiutComponent } from './componentes/saiiut/saiiut.component';
     TramitesComponent,
     ContraloriaComponent,
     InicioComponent,
-    SaiiutComponent
+    SaiiutComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

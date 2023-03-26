@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 13px;
+
+}
+
+.pie {
+    background: #988888;
+}
+
+
+
+.section {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.section div {
+    display: flex;
+    flex-direction: column;
+}
+
+div h2 {
+    color: rgb(0, 0, 0);
+    padding: 5px 0;
+    font-size: 20px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    padding: 5px;
+}
